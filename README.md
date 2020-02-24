@@ -4,6 +4,24 @@ This script is to clone libretro cores to local folder.
 
 Retroarch Cores URL list are based on Retroarch's [config.def.h](https://github.com/libretro/RetroArch/blob/master/config.def.h)
 
+## Dependencies
+
+To use this script, you only need `wget`
+
+on linux:
+
+```bash
+sudo apt update
+sudo apt install wget
+```
+
+On macos:
+
+```bash
+brew update
+brew install wget
+```
+
 ## How to use
 
 Clone this repository
